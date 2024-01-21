@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background: #000;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.815), rgba(49, 169, 221, 0.13), rgba(0, 0, 0, 0.911)) , url('images/banner.png'); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    border-bottom: solid #31A8DD 0.1vw;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6vw;
+}
+
+.banner-content > h1 {
+    font-size: 3vw;
+    font-size: normal;
+    font-weight: 900;
+    line-height: normal;
+    background: linear-gradient(180deg, #33A8DB 0%, #1473b780 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.banner-content > p{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 400;
+    width: 28vw;
+    color: white;
+}
+
+.logo{
+    background: rgba(0, 0, 0, 0.20);
+    border-radius: 100%;
+}
+
+button{
+    display: flex;
+    width: 20vw;
+    padding: 1.25vw;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    border: 2px solid #3BA1CD;
+    color: #31A8DD;
+    font-size: 1vw;
+    font-weight: 900;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 0.15vw;
+}
+
+#course-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border-bottom: solid #31A8DD 0.1vw;
+    height: 80vh;
+    width: 100%;
+}
+
+#course-content > h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5vw;
+    font-size: 2.5vw;
+}
+
+#course-content > p{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 400;
+    width: 50vw;
+    color: white;
+}
+
+.modules-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.module{
+    display: flex;
+    width: 535px;
+    padding: 1.4vw 12vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;  
+    border-radius: 57px;
+    border: 1px solid #33A8DB;
+    background: #252525;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    color: white;
+}
+
+.module > span{
+    font-weight: 500;
+    color: #3BA1CD;
+}
+
+#transform-world{
+    background: url(images/woman-code.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 50vh;
+    border-left: 1px solid #33A8DB;
+    border-right: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#transform-world > p{
+    width: 13.5vw;
+    padding-top: 8vw;
+    padding-left: 15vw;
+    color: white;
+    font-size:2vw;
+    font-weight: 900;
+    line-height: normal;
+    text-shadow: 3px 2px 0px #33A8DB;   
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    border-bottom: solid #31A8DD 0.1vw;
+    height: 110vh;
+    width: 100%;
+}
+
+#professional-challenges > h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5vw;
+    font-size: 2vw;
+    width: 60vw;
+    text-align: center;
+}
+
+#professional-challenges > p{
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 400;
+    width: 50vw;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 1vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.815), rgba(49, 169, 221, 0.13));
+}
+
+footer > p{
+    color: white;
+    font-weight: 600;
+}
+
+footer > p > a{
+    color: #33A8DB;
+    text-decoration: none;
+    
+}
